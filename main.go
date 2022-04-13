@@ -112,7 +112,7 @@ func round(x float64) (D int) {
 	s := math.Floor(x)
 	g := d - x
 	F.Println("weting dey sup", g)
-	if g <= 0.1 {
+	if g <= 0.004 {
 		D = int(d)
 	} else {
 		D = int(s)
